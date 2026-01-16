@@ -4,12 +4,12 @@ export const projectsData = [
         title: "AI Enabled Citizen Complaint Platform",
         category: "AI & Full Stack",
         role: "Full Stack AI Engineer",
-        tech: ["React", "FastAPI", "LangGraph", "Gemini", "Firebase"],
-        description: "An AI-powered system that democratizes access to justice by enabling citizens to file legal complaints via voice in their native language.",
+        tech: ["React", "FastAPI", "Python", "LangGraph", "Firebase", "STT", "TTS"],
+        description: "Built an AI-powered complaint registration system with real-time multilingual voice and text interviews to guide citizens through legally compliant filing.",
         details: [
-            "Real-time multilingual voice interview agent",
-            "LangGraph workflow for complaint validation and structuring",
-            "Automated FIR generation and legal classification"
+            "Designed a stateful AI workflow using LangGraph and Gemini",
+            "Validates inputs to detect missing details and structure complaints",
+            "Reduces manual review effort and filing errors"
         ],
         links: {
             github: "https://github.com/YourUsername/project-repo", // Placeholder
